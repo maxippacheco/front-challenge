@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.app__title{
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 30px;
+	color: #444;
+}
+
+.form__container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.form__input{
+	width: 250px;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.form__input:focus{
+	outline: none;
+	border: 1px solid black;
+}
+
+.form__reset{
+	width: 100px;
+	margin: 0px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #555;
+	color: white;
+	cursor: pointer;
+}
+.form__reset:hover{
+	background-color: #444;
+}
+
+.card__container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 20px;
+	border: 1px solid #ccc;
+}
+
+.card__title{
+	padding: 5px;
+	margin: 10px 0px;
+	color: #444;
+}
+
+.card__body{
+	color: #666;
+	padding: 5px;
+}
+
+.card__wrap{
+	display: flex;
+	margin: 10px 0px;
+}
+
+.card__id{
+	padding-right: 10px;
+	font-size: 15px;
+}
+
+.spinner__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border-left-color: #09f;
+
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
