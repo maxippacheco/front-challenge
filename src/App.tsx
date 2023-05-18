@@ -63,6 +63,7 @@ function App() {
           name="text"
           value={searchTerm}
           className='form__input'
+          autoFocus
         />
 
         <input 
